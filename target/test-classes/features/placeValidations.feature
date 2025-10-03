@@ -10,9 +10,10 @@ Scenario Outline: Verify if place is being succesfully added using AddPlaceAPI
 	
 Examples:
 
-	|name	|language	|address				|	
-	|AAhouse|English		|World cross center	|
-	|BBhouse|Spanish		|Sea cross center	|
+	|name	|language	|address				 |	
+	|AAhouse|English		|World cross center	 |
+	|BBhouse|Spanish		|Sea cross center	 |
+	|CChouse|German		|New York city center |
 	
 	
 @DeletePlace @Regression
